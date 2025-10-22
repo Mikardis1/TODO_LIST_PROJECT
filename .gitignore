@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.sqlite3
+*.db
+
+# --- Virtual environment ---
+venv/
+.env/
+.env.bak/
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Flask cache and logs ---
+instance/
+*.log
+
+# --- Pytest / Coverage ---
+.coverage
+.cache/
+htmlcov/
